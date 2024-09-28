@@ -12,6 +12,10 @@ ul {
     list-style: none;
 }
 
+img {
+    display: block;
+}
+
 /* ----Logo---- */
 
 .logo {
@@ -22,6 +26,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .logo-studio {
@@ -30,12 +35,37 @@ ul {
 
 /* ----Nav---- */
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.nav-flex {
+    display: flex;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-li {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .nav:hover {
@@ -50,6 +80,11 @@ ul {
 
 .address {
     font-style: normal;
+}
+
+.address-ul {
+    display: flex;
+    gap: 40px;
 }
 
 .address-li {
@@ -72,6 +107,8 @@ ul {
 
 .section-home {
     background-color: #2e2f42;
+    padding: 188px 0;
+
 }
 
 .home-title {
@@ -80,6 +117,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
 }
 
 .home-button {
@@ -90,6 +128,13 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--button-color);
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -200,6 +245,7 @@ ul {
 
 :root {
     --footer-color: #F4F4FD;
+    --button-color: #4d5ae5;
 }
 
 .footer-p {
