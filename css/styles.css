@@ -166,6 +166,7 @@ img {
 
 .main-ul {
     display: flex;
+    gap: 24px;
 }
 
 .main-li {
